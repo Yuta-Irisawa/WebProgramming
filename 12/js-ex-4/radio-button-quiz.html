@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="radio-button-quiz.js"> </script>
+    <title>ラジオボタンを用いた三択クイズ</title>
+</head>
+
+<body>
+    <p>
+        JavaScriptにおいて繰り返し処理を途中で中断する文は次のうちどれか？<br>
+        正解を選択して、「回答」ボタンを押してください。
+    </p>
+    <form name="myForm">
+        <p>
+            <input type="radio" name="options" value="for">for文
+            <input type="radio" name="options" value="continue">continue文
+            <input type="radio" name="options" value="break">break文
+        </p>
+        <input type="button" value="回答" name="button1">
+    </form>
+    <div id="answer"></div>
+</body>
+
+</html>

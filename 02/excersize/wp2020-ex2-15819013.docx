@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>KUJIRA Cafeへようこそ</title>
+    </head>
+    <body>
+        <h1>KUJIRA Cafe</h1>
+        第一の見出しの下の本文
+        <h2>News</h2>
+        第二の見出しの下の本文
+    </body>
+</html>
